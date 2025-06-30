@@ -31,7 +31,6 @@ public class User {
     @NotBlank(message = "Name is mandatory")
 	private String name;
 	@Column(nullable = false, unique= true)
-    @NotBlank(message = "Email is mandatory")
 	private String email;
 	@Column(nullable = false)
 	private String password;
